@@ -65,6 +65,14 @@ El usuario debe de ser capaz de dar de baja sus materias.
 El usuario debe de ser capaz de modificar la información básica de su perfil
 
 ### 2.3 Usuarios y características
+
+A continuación se presenta una breve descripción de los usuarios que van a interactuar con el producto
+
+- Estudiantes de nuevo ingreso
+Nuevos estudiantes en el ITAM, están por cursar su primer semestre en el ITAM y su horario es establecido por control escolar.
+- Estudiantes por egresar
+Estudiantes que no son de primer ingreso, y siguen avanzando en su carrera en el ITAM
+
 ### 2.4 Ambiente operativo
 ### 2.5 Restricción de diseño e implementación
 ### 2.6 Documentación del usuario

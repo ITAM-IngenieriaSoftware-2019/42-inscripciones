@@ -48,6 +48,22 @@ El sistema debe ser desplegado para toda la comunidad estudiantil del itam. Conf
 El producto busca brindar a los estudiantes del ITAM un portal web donde puedan dar de alta materias, actualizar sus horarios y eliminar clases que ya no quieran llevar. El sistema debe ser sencillo y eficiente para reducir el tiempo que llevael proceso de registro para un estudiante. La seguridad es fundamental para que el sistema pueda actualizar las bases de datos del ITAM sin poner en riesgo la información de los usuarios.
 
 ### 2.2 Funciones del producto
+
+A continuación se presenta una breve descripción de las funcionalidades generales del producto.
+
+- Registro de usuarios
+El usuario es capaz de registrarse en el sistema para iniciar a administrar sus materias.
+- Login de usuarios
+El usuario es capaz de ingresar al sistema con correo y contraseña porsteriormente a su registro.
+- Alta de materias
+El usuario debe de ser capaz de dar de alta sus materias.
+- Actualización de materias
+El usuario debe de ser capaz de actualizar sus materias.
+- Eliminación de materias
+El usuario debe de ser capaz de dar de baja sus materias.
+- Configuración de perfil
+El usuario debe de ser capaz de modificar la información básica de su perfil
+
 ### 2.3 Usuarios y características
 ### 2.4 Ambiente operativo
 ### 2.5 Restricción de diseño e implementación

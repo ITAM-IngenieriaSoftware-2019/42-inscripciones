@@ -74,6 +74,11 @@ Nuevos estudiantes en el ITAM, están por cursar su primer semestre en el ITAM y
 Estudiantes que no son de primer ingreso, y siguen avanzando en su carrera en el ITAM
 
 ### 2.4 Ambiente operativo
+
+Para el proyecto vamos a utilizar una intancia T2 Micro de AWS. Las instancias T2 son tipos de instancias de Amazon EC2 diseñadas para disminuir radicalmente los costos de las aplicaciones que se benefician de la capacidad para ampliarse para alcanzar el rendimiento pleno de los núcleos cuando resulta necesario. Las instancias T2 se pueden usar en la capa gratuita de AWS, que incluye 750 horas de instancias t2.micro de Linux y Windows al mes durante un año para clientes nuevos de AWS.
+
+El sistema operativo a utilizar es Linux.
+
 ### 2.5 Restricción de diseño e implementación
 ### 2.6 Documentación del usuario
 ### 2.7 Suposiciones y dependencias

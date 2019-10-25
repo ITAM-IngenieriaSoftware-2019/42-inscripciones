@@ -56,5 +56,16 @@ El producto busca brindar a los estudiantes del ITAM un portal web donde puedan 
 
 ## Requerimientos de interfaz externa
 ## Características del sistema
-## Requerimientos no funcionales
+## 5.Requerimientos no funcionales
+### 5.1 Requerimientos de rendimiento
+El sistema debe ser capaz de atender las peticiones de los alumnas en su máxima carga. En los 3 días que los alumnos se inscriben, el sistema debe tener poca latencia y disponibilidad del 100%;
+### 5.2 Requerimientos de seguridad
+
+La cuenta de cada alumno solo debe poder ser accedida por el mismo. Es muy importante asegurar el proceso de autenticación puesto que fallar en este aspecto puede tener consecuencias negativas para el alumno. Así mismo, ningun alumno debe poder acceder información que no le corresponda
+
+
+### 5.3 Reglas del negocio
+Cada alumno puede visualizar todos los cursos, pero no le debe ser posible dar de alta materias que no pertenezcan a su plan de estudios o que se den en un horario que choque con una materia previamente seleccionada. Así mismo, cada alumno tiene un límite de materias que puede inscribir definido por su carga académica.
+
+
 ## Otros requerimientos

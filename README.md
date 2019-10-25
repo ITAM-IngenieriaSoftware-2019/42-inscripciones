@@ -97,6 +97,7 @@ Incluye un link para restaurar la contraseña si el usuario la ha olvidado.
 Es de prioridad alta, ya que es escencial para el uso del sistema.
 
 #### 4.1.2 Secuencias de estímulo y respuesta
+
 En la pantalla hay 2 cajas de texto donde el usuario ingresará su clave única y nip, al hacer click en el botón de "Log In" el sistema valida la informacíon ingresada y de ser correcta redirige a la página pricipal, de lo contrario muestra un mensaje de error.
 
 Al hacer click en el link "olvidé mi contraseña" el sistema redirigirá a la página de reestablecer contraseña.
@@ -117,6 +118,20 @@ Al hacer click en el link "olvidé mi contraseña" el sistema redirigirá al usu
 
 ### 4.2 Dar de alta materias
 
+#### 4.2.1 Descripción y prioridad
+El usuario encuentra la materia que desea inscribir, la selecciona y hace click en el botón "Registrar", el sistema valida que el usuario cumpla los requisitos y de ser el caso inscribe al alumno, de lo contrario manda un mensaje de error.
+Es de prioridad alta ya que es la función principal del sistema.
+#### 4.2.2 Secuencias de estímulo y respuesta
+
+Al dar click en "Registrar" el sistema valida que el alumno cumpla los requisitos de la materia, de ser así guarda la inscripcion en la base de datos, de lo contrario despliega un mensaje de error.
+#### 4.2.3 Requerimientos funcionales
+
+##### Requisito 1
+El sistema valida que la materia este abierta o manda error
+##### Requisito 2
+El sistema revisa que el alumno cumpla los requisitos para la materia o manda error
+##### Requisito 3
+El sistema registra al alumno inscrito en la materia en la base de datos.
 ### 4.3 Dar de baja materias
 ## 5.Requerimientos no funcionales
 ### 5.1 Requerimientos de rendimiento

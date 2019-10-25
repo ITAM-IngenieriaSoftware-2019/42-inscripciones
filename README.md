@@ -120,6 +120,7 @@ Al hacer click en el link "olvidé mi contraseña" el sistema redirigirá al usu
 
 #### 4.2.1 Descripción y prioridad
 El usuario encuentra la materia que desea inscribir, la selecciona y hace click en el botón "Registrar", el sistema valida que el usuario cumpla los requisitos y de ser el caso inscribe al alumno, de lo contrario manda un mensaje de error.
+
 Es de prioridad alta ya que es la función principal del sistema.
 #### 4.2.2 Secuencias de estímulo y respuesta
 
@@ -133,6 +134,27 @@ El sistema revisa que el alumno cumpla los requisitos para la materia o manda er
 ##### Requisito 3
 El sistema registra al alumno inscrito en la materia en la base de datos.
 ### 4.3 Dar de baja materias
+#### 4.3.1 Descripción y prioridad
+
+El usuario elije una de las materias en las que ya está inscrito y el sistema lo desinscribe.
+Es de prioridad media, ya que no es escencial para el uso del sistema, pero es importante.
+
+#### 4.3.2 Secuencias de estímulo y respuesta
+
+El usuario elije una materia de la lista de sus inscripciones y hace click en el boton "Eliminar".
+El sistema modifica la base de datos adecuadamente.
+#### 4.3.3 Requerimientos funcionales
+
+##### Requerimiento 1
+
+
+El sistema verifica que se haya elegido una materia valida o manda error
+##### Requerimiento 2
+
+El sistema verifica que el alumno está inscrito en dicha materia o manda error
+##### Requerimiento 3
+
+El sistema elimina al alumno de la materia
 ## 5.Requerimientos no funcionales
 ### 5.1 Requerimientos de rendimiento
 El sistema debe ser capaz de atender las peticiones de los alumnas en su máxima carga. En los 3 días que los alumnos se inscriben, el sistema debe tener poca latencia y disponibilidad del 100%;

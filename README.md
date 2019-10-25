@@ -41,7 +41,19 @@ El sistema debe ser desplegado para toda la comunidad estudiantil del itam. Conf
 
 
 
-## Descripción general
+## 2 Descripción general
+
+### 2.1	Perspectiva del producto
+
+El producto busca brindar a los estudiantes del ITAM un portal web donde puedan dar de alta materias, actualizar sus horarios y eliminar clases que ya no quieran llevar. El sistema debe ser sencillo y eficiente para reducir el tiempo que llevael proceso de registro para un estudiante. La seguridad es fundamental para que el sistema pueda actualizar las bases de datos del ITAM sin poner en riesgo la información de los usuarios.
+
+### 2.2 Funciones del producto
+### 2.3 Usuarios y características
+### 2.4 Ambiente operativo
+### 2.5 Restricción de diseño e implementación
+### 2.6 Documentación del usuario
+### 2.7 Suposiciones y dependencias
+
 ## Requerimientos de interfaz externa
 ## Características del sistema
 ## Requerimientos no funcionales

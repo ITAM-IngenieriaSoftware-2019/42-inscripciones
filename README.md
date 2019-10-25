@@ -1,4 +1,4 @@
-
+﻿
 # Especificación de requerimientos de software
 ## para el sistema de inscripcion del ITAM
 Version 1.0  
@@ -44,5 +44,22 @@ El sistema debe ser desplegado para toda la comunidad estudiantil del itam. Conf
 ## Descripción general
 ## Requerimientos de interfaz externa
 ## Características del sistema
+### Iniciar sesión en el sistema
+#### Descripción y prioridad
+El usuario ingresa su usuario y contraseña, es validado y manda un mensaje de error o a la página de inicio.
+Incluye un link para restaurar la contraseña si el usuario la ha olvidado.
+Es de prioridad alta, ya que es escencial para el uso del sistema.
+#### Secuencias de estímulo y respuesta
+En la pantalla hay 2 cajas de texto donde el usuario ingresará su clave única y nip, al hacer click en el botón de "Log In" el sistema valida la informacíon ingresada y de ser correcta redirige a la página pricipal, de lo contrario muestra un mensaje de error.
+Al hacer click en el link "olvidé mi contraseña" el sistema redirigirá a la página de reestablecer contraseña.
+#### Requerimientos funcionales
+##### Requerimiento 1
+Al hacer click en el botón "Log In" el sistema valida que los campos de clave única y nip no estén vacíos, de ser así desplegará un mensaje pidiendo que se proporcione la información reqerida.
+##### Requerimiento 2
+Si los campos no están vaciós, el sistema valida la información con la base de datos del itam, si la validación falla despliega un mensaje de error, de otro modo guarda la sesión y redirige al usuario a la página principal.
+##### Requerimiento 3
+Al hacer click en el link "olvidé mi contraseña" el sistema redirigirá al usuario a la página de recuperacion de contraseñas.
+### Dar de alta materias
+### Dar de baja materias
 ## Requerimientos no funcionales
 ## Otros requerimientos
